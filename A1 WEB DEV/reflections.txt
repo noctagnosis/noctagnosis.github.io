@@ -1,3 +1,0 @@
-I learnt how to write basic html code and how to write basic css code
-I also learnt how flex and grid work as well as how to manually do layout.
-I also learnt the basics of web design.
