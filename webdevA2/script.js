@@ -95,7 +95,6 @@ var counter = 1;
 var speedIncrease = 0.1;
 var baseDuration = 3;
 var minDuration = 1; 
-var V = 3;
 var checkDead = null;
 var gameRunning = false;
 var lastScore = 0;
@@ -137,7 +136,7 @@ restartBtn.addEventListener("click", startGame);
 function jump(){
     if (!gameRunning) return;
 
-    if(Owl.classList.contains("animateJ")){ return }
+    if(Owl.classList.contains("animateJ")){ return; }
     Owl.classList.add("animateJ");
 	flapSound.currentTime = 0;
 	flapSound.play();

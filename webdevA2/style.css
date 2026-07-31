@@ -51,7 +51,7 @@
 	position: relative;
 	bottom: 0;
 	z-index: 1;
-	padding-right: 300px; /* reserve space so text/links don't run under the QR code */
+	padding-right: 300px; 
 }
 
 .footer-links {
@@ -166,7 +166,6 @@
 	 padding: 30px;
 	 margin-top: 50px;
  }
-}
 .scroll{
 	padding: 500px;
 	height: 2000px;
@@ -189,7 +188,6 @@
   background-position: 0 0;
   position:relative;
   top: 260px;
-  /*image-rendering: pixelated;*/
 }
 
 .bird-sprite{
@@ -314,7 +312,7 @@
 	color:white;
 	justify-content: center;
 	align-items: center;
-	font-size: 45px;
+	font-size: 90px;
 }
 
 #card1-front {
@@ -339,7 +337,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .page2-subtopic2 {
@@ -566,7 +564,6 @@
 	.nav-item {
 		margin: 5px 0;
 	}
-	/* page headers */
 	.page-header {
 		flex-direction: column;
 		background-attachment: scroll;
@@ -599,7 +596,6 @@
 		margin: 20px auto 0;
 	}
 
-	/* page 2 cards */
 	.card-container {
 		flex-direction: column;
 		align-items: center;
@@ -631,13 +627,25 @@
 	cursor: pointer;
 }
 
+	.front h1 {
+		font-size: 26px;
+	}
+
+	.back h1 {
+		font-size: 20px;
+	}
+
+	.back p {
+		font-size: 15px;
+		padding: 0 10px;
+	}
+
 	.page2-sub-title {
 		font-size: 30px;
 		text-align: center;
 		padding: 15px;
 	}
 
-	/* page 2 text blocks */
 	.page2-subtopic2 {
 		padding: 0 15px;
 	}
@@ -654,7 +662,6 @@
 		font-size: 17px;
 	}
 
-	/* page 3 slideshow */
 	.owl-slideshow {
 		max-width: 100%;
 		margin-left: 0;
@@ -709,7 +716,7 @@
 		gap: 10px;
 		padding: 15px 20px;
 		text-align: center;
-		height: 400px;
+		height: 600px;
 	}
 	
 	.game-container {
