@@ -6,10 +6,6 @@
   src: url(fonts/Vogue.ttf) format("truetype"); 
 }
 @font-face {
-  font-family: Navfont; 
-  src: url(fonts/BLACKOUT.ttf) format("truetype"); 
-}
-@font-face {
   font-family: aboutme-title-font; 
   src: url(fonts/GoboldBold.otf) format("opentype"); 
 }
@@ -43,25 +39,47 @@
     animation: jump 1s linear ;
 }
 .site-footer {
+	height: 250px;
 	background-color: #78B369;
 	padding: 20px 40px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	gap: 20px;
 	position: relative;
 	bottom: 0;
 	z-index: 1;
+	padding-right: 300px; /* reserve space so text/links don't run under the QR code */
 }
 
-.footer-text {
+.footer-links {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap: 25px;
+}
+
+.footer-link {
 	color: black;
+	text-decoration: none;
 	font-family: KCfont;
 	font-size: 18px;
+	transition: color 0.3s;
+}
+
+.footer-link:hover {
+	color: #626575;
 }
 
 .footer-qr {
-	width: 70px;
-	height: 70px;
+	width: 250px;
+	height: 250px;
+	flex-shrink: 0;
+	position: absolute;
+	top: 20px;
+	right: 40px;
 }
 /*nav*/
 .nav-container {
@@ -290,18 +308,38 @@
   position: absolute;
   backface-visibility: hidden;
 }
+.front{
+	text-align: center;
+	display: flex;
+	color:white;
+	justify-content: center;
+	align-items: center;
+	font-size: 45px;
+}
 
-.front {
-  background-image: url('photos/page1back.png');
+#card1-front {
+  background-image: url('photos/prey1.png');
+}
+#card2-front {
+  background-image: url('photos/prey2.png');
+}
+#card3-front {
+  background-image: url('photos/prey3.png');
+}
+#card4-front {
+  background-image: url('photos/prey4.png');
 }
 .back {
   background-color: #3a3a3a;
+  text-align:center;
+  color: white;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  font-size: 25px;
 }
 
 .page2-subtopic2 {
@@ -671,6 +709,7 @@
 		gap: 10px;
 		padding: 15px 20px;
 		text-align: center;
+		height: 400px;
 	}
 	
 	.game-container {
@@ -689,7 +728,7 @@
 	.Game {
 		transform: scale(0.45);
 		transform-origin: top center;
-		margin: 0 auto -190px 40px;
+		margin: 0 auto -190px;
 	}
 
 }
