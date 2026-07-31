@@ -1,0 +1,198 @@
+<!DOCTYPE html>       
+<html lang = en>
+	<head>
+		<link href="style.css" type = "text/css" rel = "stylesheet">
+		<script src ="script.js" defer></script>
+		<title>Home</title>
+	</head>
+	
+	<body>
+		<header>
+			<nav class = "nav-container">
+				<ul class = "nav-items">
+					<li class = "nav-item"><button class = "nav-link" id = "page1-btn">Home</button></li>
+					<li class = "nav-item"><button class = "nav-link" id = "page2-btn">Owl Diet</button></li>
+					<li class = "nav-item"><button class = "nav-link" id = "page3-btn">Owl Families</button></li>
+					<li class = "nav-item"><button class = "nav-link" id = "page4-btn">OWL RUN</button></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main class = "page-container">
+			<section class = "page" id = "page1">
+				<header class = "page-header" id = "page1-header">
+					<div class = "page-header-text">
+						<h1 class = "page-title">The Avien Biology of  <span class = "highlight">Owls</span></h1>
+						<h2 class = "page-subtitle">The Secret of the <span class = "highlight">nocturnal</span> birds of prey</h2>
+					</div>
+					<img src = "photos/owlpic.png" class = "owl-picture">
+				</header>
+			</section>
+			<section class = "page" id = "page2">
+				<header class = "page-header" id = "page2-header">
+					<div class = "page-header-text">
+						<h1 class = "page-title">The <span class = "highlight">Diet and Lifestyle</span> of Owls</h1>
+						<h2 class = "page-subtitle">The Dietary lifestyle of <span class = "highlight">Owls</span></h2>
+					</div>
+					<img src = "photos/mouse.png" class = "mouse-picture">
+				</header>
+				<article class= "page2-subtopic">
+					<h1 class = "page2-sub-title">Common Prey Of Owls</h1>
+					<div class="card-container">
+						<div class="card-contain">
+							<div class="card">
+							  <div class="front"></div>
+							  <div class="back"><h1>Back of Card</h1><p>Info 1</p></div>
+							</div>
+						</div>
+						<div class="card-contain">
+							<div class="card">
+								<div class="front"></div>
+								<div class="back"><h1>Back of Card</h1><p>Info 2</p></div>
+							</div>
+						</div>
+						<div class="card-contain">
+							<div class="card">
+								<div class="front"></div>
+								<div class="back"><h1>Back of Card</h1><p>Info 3</p></div>
+							</div>
+						</div>
+						<div class="card-contain">
+							<div class="card">
+								<div class="front"></div>
+								<div class="back"><h1>Back of Card</h1><p>Info 3</p></div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class = "page2-subtopic2">
+					<h1 class = "article-title">The Life of an Owl</h1>
+
+					<div class = "text-block">
+						<div class = "block-subtitle">Hunting</div>
+						<p class = "block-text">Owls are silent, nocturnal hunters. Their specially adapted feathers muffle the sound of flight, allowing them to swoop down on prey without being detected until it's too late.</p>
+					</div>
+
+					<div class = "text-block">
+						<div class = "block-subtitle">Vision</div>
+						<p class = "block-text">Owls have enormous eyes relative to their skulls, giving them exceptional night vision. Because their eyes are fixed in place, they've developed the ability to rotate their heads up to 270 degrees.</p>
+					</div>
+
+					<div class = "text-block">
+						<div class = "block-subtitle">Hearing</div>
+						<p class = "block-text">Many owl species have asymmetrical ear placements, with one ear higher than the other. This allows them to pinpoint the exact location of prey using sound alone, even in complete darkness.</p>
+					</div>
+
+					<div class = "text-block">
+						<div class = "block-subtitle">Habitat</div>
+						<p class = "block-text">Owls are found on every continent except Antarctica, living in forests, deserts, grasslands, and even urban areas. Different species have adapted to nearly every environment on Earth.</p>
+					</div>
+				</article>
+			</section>
+			<section class = "page" id = "page3">
+				<header class = "page-header" id = "page3-header">
+					<div class = "page-header-text">
+						<h1 class = "page-title"><span class = "highlight">Types of Owls</span> and all <span class = "highlight">Owl Families</span></h1>
+						<h2 class = "page-subtitle">The Different <span class = "highlight">Familia of Owls</span></h2>
+					</div>
+					<img src = "photos/owlpic.png" class = "owl-picture">
+				</header>
+				<article class="owl-slideshow">
+					<img id="familySlideImage" class="family-slide-image" src="" alt="Owl family">
+
+					<div class="family-slide-text">
+						<h2 id="familySlideTitle" class="family-slide-title"></h2>
+						<p id="familySlideBody"></p>
+					</div>
+					<div class="slide-controls">
+						<button id="familyPrevBtn" class="slide-btn">Previous</button>
+						<div class="slide-dots" id="familyDots"></div>
+						<button id="familyNextBtn" class="slide-btn">Next</button>
+					</div>
+				</article>
+				<article class = "quiz-container">
+					<h1 class = "quiz-title">MCQ Quiz</h1>
+
+					<fieldset class = "quiz-question">
+						<legend class = "quiz-legend">1. What is the capital of Japan?</legend>
+						<label class = "quiz-option"><input type="radio" name="q1" value="Beijing"> Beijing</label>
+						<label class = "quiz-option"><input type="radio" name="q1" value="Seoul"> Seoul</label>
+						<label class = "quiz-option"><input type="radio" name="q1" value="ans"> Tokyo</label>
+						<label class = "quiz-option"><input type="radio" name="q1" value="Bangkok"> Bangkok</label>
+					</fieldset>
+
+					<fieldset class = "quiz-question">
+						<legend class = "quiz-legend">2. Which of these is a primary color?</legend>
+						<label class = "quiz-option"><input type="radio" name="q2" value="Cyan"> Cyan</label>
+						<label class = "quiz-option"><input type="radio" name="q2" value="Orange"> Orange</label>
+						<label class = "quiz-option"><input type="radio" name="q2" value="Purple"> Purple</label>
+						<label class = "quiz-option"><input type="radio" name="q2" value="ans"> Red</label>
+					</fieldset>
+					
+					<fieldset class = "quiz-question">
+						<legend class = "quiz-legend">2. Which of these is a primary color?</legend>
+						<label class = "quiz-option"><input type="radio" name="q3" value="Cyan"> Cyan</label>
+						<label class = "quiz-option"><input type="radio" name="q3" value="Orange"> Orange</label>
+						<label class = "quiz-option"><input type="radio" name="q3" value="Purple"> Purple</label>
+						<label class = "quiz-option"><input type="radio" name="q3" value="ans"> Red</label>
+					</fieldset>
+					
+					<fieldset class = "quiz-question">
+						<legend class = "quiz-legend">2. Which of these is a primary color?</legend>
+						<label class = "quiz-option"><input type="radio" name="q4" value="Cyan"> Cyan</label>
+						<label class = "quiz-option"><input type="radio" name="q4" value="Orange"> Orange</label>
+						<label class = "quiz-option"><input type="radio" name="q4" value="Purple"> Purple</label>
+						<label class = "quiz-option"><input type="radio" name="q4" value="ans"> Red</label>
+					</fieldset>
+					
+					<fieldset class = "quiz-question">
+						<legend class = "quiz-legend">2. Which of these is a primary color?</legend>
+						<label class = "quiz-option"><input type="radio" name="q5" value="Cyan"> Cyan</label>
+						<label class = "quiz-option"><input type="radio" name="q5" value="Orange"> Orange</label>
+						<label class = "quiz-option"><input type="radio" name="q5" value="Purple"> Purple</label>
+						<label class = "quiz-option"><input type="radio" name="q5" value="ans"> Red</label>
+					</fieldset>
+					
+					<fieldset class = "quiz-question">
+						<legend class = "quiz-legend">2. Which of these is a primary color?</legend>
+						<label class = "quiz-option"><input type="radio" name="q6" value="Cyan"> Cyan</label>
+						<label class = "quiz-option"><input type="radio" name="q6" value="Orange"> Orange</label>
+						<label class = "quiz-option"><input type="radio" name="q6" value="Purple"> Purple</label>
+						<label class = "quiz-option"><input type="radio" name="q6" value="ans"> Red</label>
+					</fieldset>
+
+					<button id="btnSubmit" class = "quiz-submit">Submit Quiz</button>
+					<h3 id="scorebox" class = "quiz-score">Not submitted</h3>
+				</article>
+			</section>
+			<section class = "page" id = "page4">
+				<div class = "game-container">
+					<h1 class = "game-title"> OWL RUN</h1>
+					<article class = "Game" onclick = "jump()">
+						<div id="owl-sprite" class="owl-sprite"></div>
+						<div id = "bird-sprite" class = "bird-sprite"></div>
+						<div id = "tree-sprite" class = "tree-sprite"></div>
+						<p class = "game-score">Score: <span id="scoreSpan">0</span></p>
+						<div id="startScreen" class="overlay">
+							<h1>Owl Run</h1>
+							<p>Click To Jump. Avoid hitting the branches or the birds</p>
+							<button id="playBtn">Play</button>
+						</div>
+						<div id="gameOverScreen" class="overlay hidden">
+							<h1>Game Over</h1>
+							<p>Score: <span id="finalScore">0</span></p>
+							<button id="restartBtn">Play Again</button>
+						  </div>
+					</article>
+				</div>
+			</section>
+		</main>
+		</main>
+
+		<footer class = "site-footer">
+			<p class = "footer-text">© 2026 Owl Site. All rights reserved.</p>
+			<img src = "photos/.png" class = "footer-qr" alt = "QR code">
+		</footer>
+		
+	</body>
+</html>
