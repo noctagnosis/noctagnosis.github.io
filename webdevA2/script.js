@@ -149,6 +149,13 @@ function jump(){
     }, 14);
 }
 
+document.querySelectorAll(".card-contain").forEach(function(cardContain) {
+	cardContain.addEventListener("click", function() {
+		const card = cardContain.querySelector(".card");
+		card.classList.toggle("flipped");
+	});
+});
+
 const owlFamilies = [
     {
         image: "photos/mouse.png",
