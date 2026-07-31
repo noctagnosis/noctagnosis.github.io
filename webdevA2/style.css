@@ -689,7 +689,7 @@
 	.Game {
 		transform: scale(0.45);
 		transform-origin: top center;
-		margin: 0 auto -190px -40px;
+		margin: 0 auto -190px;
 	}
 
 }
